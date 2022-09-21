@@ -1,0 +1,13 @@
+[package]
+name = "csudc-rust-project-manager"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+diesel = { version = "1.4.8", features = ["sqlite"] }
+dioxus-free-icons = { version = "0.5.0", features = ["font-awesome-regular"] }
+dioxus = { version = "0.2.4", features = ["desktop", "router"] }
+native-dialog = "0.6.3"
+nfd = "0.0.4"
